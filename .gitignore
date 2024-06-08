@@ -1,0 +1,4 @@
+# diretório de cache do parcel
+.parcel-cache
+
+node_modules
