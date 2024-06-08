@@ -4,6 +4,8 @@
   "description": "Desenvolvimento de site para o projeto Buguela",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel serve index.html --dist-dir dev --open --port 3000",
+    "build": "parcel build index.html --dist-dir docs --no-cache  --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/RudeBoyOne/projeto-integrador/issues"
   },
-  "homepage": "https://github.com/RudeBoyOne/projeto-integrador#readme"
+  "homepage": "https://github.com/RudeBoyOne/projeto-integrador#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
 }
