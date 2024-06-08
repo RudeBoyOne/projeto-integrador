@@ -1,4 +1,10 @@
 # diretório de cache do parcel
 .parcel-cache
 
+# diretório usado pelo parcel para servidor de desenvolvimento
+dev
+
+# arquivo de log do comando npm run dev
+projeto.log
+
 node_modules
