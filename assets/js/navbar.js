@@ -6,13 +6,12 @@ let navbarBurgers;
 const iconSun = `<span class="icon"><i class="fas fa-xl fa-sun"></i></span>`;
 const iconMoon = `<span class="icon"><i class="fas fa-xl fa-moon"></i></span>`;
 
-function carregaNav() {
+export function renderNavbar() {
     const navbar =
         `<header>
         <nav class="navbar is-warning">
           <div class="navbar-brand is-size-4">
             <img class="logo" src="${logo}" alt="Logo Buguela">
-            <a class="navbar-item">Buguela</a>
             <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
               <span aria-hidden="true"></span>
               <span aria-hidden="true"></span>
@@ -38,8 +37,6 @@ function carregaNav() {
 
     document.body.insertAdjacentHTML('afterbegin', navbar)
 }
-
-carregaNav()
 
 
 const addListenerButtonTheme = () => {

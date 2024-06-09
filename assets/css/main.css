@@ -1,3 +1,37 @@
 .logo {
     width: 4rem;
 }
+
+.box-title-principal{
+    display: flex;
+    justify-content: center;
+}
+
+.title-principal{
+    /* font-size: xxx-large; */
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-prev {
+    
+}
+
+.swiper-button-next {
+
+}
+
+.swiper-pagination {
+
+}
