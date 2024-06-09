@@ -2,6 +2,7 @@ import Swiper from 'swiper';
 import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
 import imagemCarrosel from '../imgs/bolsaCarroselTwo.png';
+import { getOrCreateMainElement } from './renderMain';
 
 // Ativa os módulos necessários para o Swiper
 Swiper.use([Pagination, Navigation]);
@@ -9,7 +10,7 @@ Swiper.use([Pagination, Navigation]);
 let swiperInstance;
 
 export const renderCarrossel = () => {
-  const carroselHTML = `
+  const titleAndCarrossel = `
     <section class="box-title-principal">
       <h1 class="is-size-1">Buguela</h1>
     </section>
@@ -36,10 +37,12 @@ export const renderCarrossel = () => {
       <div class="swiper-pagination"></div>
     </section>`;
 
-  const mainElement = document.getElementById('main') || document.createElement('main');
-  mainElement.id = 'main';
-  mainElement.innerHTML = carroselHTML;
-  document.body.appendChild(mainElement);
+  const sectionTitleAndCarrossel = document.createElement('section');
+  sectionTitleAndCarrossel.innerHTML = titleAndCarrossel;
+  const main = getOrCreateMainElement();
+
+  main.appendChild(sectionTitleAndCarrossel);
+
 
   initSwiper();
 };
