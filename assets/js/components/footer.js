@@ -21,7 +21,7 @@ export const renderFooter = () => {
                     <p class="navbar-item">+55 11 98056-2136</p>
                 </li>
                 <li>
-                    <a class="navbar-item" href="mailto:annasantosbuguela@gmail.com?subject=Quero%20comprar%20um%20produto&body=Olá%20como%20posso%20adquirir%20um%20produto?%20" target="_blank">annasantosbuguela@gmail.com</a>
+                    <a class="navbar-item email" href="mailto:annasantosbuguela@gmail.com?subject=Quero%20comprar%20um%20produto&body=Olá%20como%20posso%20adquirir%20um%20produto?%20" target="_blank">annasantosbuguela@gmail.com</a>
                 </li>
                 <li>
                     <p class="navbar-item" href="#">SÃO PAULO - SP | BRASIL</p>

@@ -25,7 +25,7 @@ export function renderNavbar() {
               <a href="#produtos" class="navbar-item">Produtos</a>
               <a href="#proposito" class="navbar-item">Propósito</a>           
               <div class="navbar-item">
-                <div class="buttons">
+                <div class="buttons is-justify-content-flex-end">
                   <button type="button" class="button is-warning" id="button-theme" title="button-theme"></button>
                 </div>
               </div>

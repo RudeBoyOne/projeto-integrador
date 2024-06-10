@@ -7,10 +7,6 @@
     justify-content: center;
 }
 
-.title-principal{
-    /* font-size: xxx-large; */
-}
-
 .swiper-slide {
     display: flex;
     justify-content: center;
@@ -24,14 +20,6 @@
     object-fit: cover;
 }
 
-.swiper-button-prev {
-    
-}
-
-.swiper-button-next {
-
-}
-
-.swiper-pagination {
-
+.email {
+    word-wrap: break-word;
 }
