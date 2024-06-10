@@ -1,5 +1,5 @@
-import { getOrCreateMainElement } from "../renderMain";
-import imageAbout from "../../imgs/buguela3.png"
+import { getOrCreateMainElement } from "../../renderMain";
+import imageAbout from "../../../imgs/buguela3.png"
 
 export const renderAbout = () => {
     const about =
@@ -19,7 +19,7 @@ export const renderAbout = () => {
         <div class="column is-flex is-flex-direction-column is-justify-content-center">
             <div class="card">
                 <div class="card-image">
-                    <figure class="image is-2by3">
+                    <figure class="image is-2by2">
                     <img src="${imageAbout}" alt="Placeholder image"/>
                     </figure>
                 </div>

@@ -1,14 +1,14 @@
-import { getOrCreateMainElement } from "../renderMain";
-import imageCategory1 from '../../imgs/bolsas.png'
-import imageCategory2 from '../../imgs/bolsa_produto1.png'
-import imageCategory3 from '../../imgs/bolsas2.jpeg'
+import { getOrCreateMainElement } from "../../renderMain";
+import imageCategory1 from '../../../imgs/bolsas.png'
+import imageCategory2 from '../../../imgs/bolsa_produto1.png'
+import imageCategory3 from '../../../imgs/bolsas2.jpeg'
 
 export const renderCategory = () => {
     const category =
     `<div class="grid">
       <div class="cell is-flex is-flex-direction-column">
         <div class="is-flex-grow-1">
-          <h4 class="title is-4">Categorias</h4>
+          <h3 class="title is-3">Catálogo</h3>
         </div>
         <div class="is-flex-grow-1">
           <div class="card">
