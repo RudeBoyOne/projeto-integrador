@@ -1,4 +1,5 @@
 import { getOrCreateMainElement } from "../renderMain";
+import imageAbout from "../../imgs/buguela3.png"
 
 export const renderAbout = () => {
     const about =
@@ -15,13 +16,11 @@ export const renderAbout = () => {
             Seja parte do movimento, Seja parte do Ateliê Buguela!
             </p>
         </div>
-        <div class="column">
+        <div class="column is-flex is-flex-direction-column is-justify-content-center">
             <div class="card">
                 <div class="card-image">
-                    <figure class="image is-4by3">
-                    <img
-                        src="https://bulma.io/assets/images/placeholders/1280x960.png"
-                        alt="Placeholder image"/>
+                    <figure class="image is-2by3">
+                    <img src="${imageAbout}" alt="Placeholder image"/>
                     </figure>
                 </div>
             </div>
