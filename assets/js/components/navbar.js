@@ -1,4 +1,5 @@
 import logo from '../../imgs/favicon.png'
+import logoTransparente from '../../imgs/logo2transparente.png'
 
 let buttonTheme;
 let tagHtml;
@@ -33,7 +34,13 @@ export function renderNavbar() {
             </div>
           </div>
         </nav>
+
+        <section class="box-title-principal">
+          <h1 class="principal-title">Buguela</h1>
+          <img class="banner" src="${logo}" alt="Logo Buguela">
+        </section>
       </header>
+
       `;
 
     document.body.insertAdjacentHTML('afterbegin', navbar)

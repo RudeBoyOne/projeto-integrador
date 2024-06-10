@@ -11,10 +11,6 @@ let swiperInstance;
 
 export const renderCarrossel = () => {
   const titleAndCarrossel = `
-    <section class="box-title-principal">
-      <h1 class="is-size-1">Buguela</h1>
-    </section>
-
     <section class="swiper section">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
