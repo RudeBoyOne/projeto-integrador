@@ -22,6 +22,7 @@ export function renderNavbar() {
           
           <div class="navbar-menu" id="navMenu">
             <div class="navbar-end">
+              <a href="#home" class="navbar-item">Home</a>
               <a href="#produtos" class="navbar-item">Produtos</a>
               <a href="#proposito" class="navbar-item">Propósito</a>           
               <div class="navbar-item">

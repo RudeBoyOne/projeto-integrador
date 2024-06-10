@@ -18,7 +18,7 @@ function renderContentBasedOnHash() {
 }
 
 renderNavbar();
-renderContentBasedOnHash();
 renderFooter();
+renderContentBasedOnHash();
 
 window.addEventListener('hashchange', renderContentBasedOnHash);
