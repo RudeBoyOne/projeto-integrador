@@ -1,4 +1,4 @@
-import { getOrCreateMainElement } from "./renderMain";
+import { getOrCreateMainElement } from "../renderMain";
 
 export const renderAbout = () => {
     const about =

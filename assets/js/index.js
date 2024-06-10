@@ -1,7 +1,7 @@
-import { renderAbout } from "./about";
-import { renderCarrossel } from "./carrossel";
+import { renderAbout } from "./components/about";
+import { renderCarrossel } from "./components/carrossel";
 import { cleanBody } from "./cleanBody";
-import { renderNavbar } from "./navbar";
+import { renderNavbar } from "./components/navbar";
 
 function renderContentBasedOnHash() {
     if (location.hash === '#proposito') {

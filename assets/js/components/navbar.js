@@ -1,4 +1,4 @@
-import logo from '../imgs/favicon.png'
+import logo from '../../imgs/favicon.png'
 
 let buttonTheme;
 let tagHtml;

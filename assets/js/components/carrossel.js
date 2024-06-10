@@ -1,8 +1,8 @@
 import Swiper from 'swiper';
 import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
-import imagemCarrosel from '../imgs/bolsaCarroselTwo.png';
-import { getOrCreateMainElement } from './renderMain';
+import imagemCarrosel from '../../imgs/bolsaCarroselTwo.png';
+import { getOrCreateMainElement } from '../renderMain';
 
 // Ativa os módulos necessários para o Swiper
 Swiper.use([Pagination, Navigation]);
