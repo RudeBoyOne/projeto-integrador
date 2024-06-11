@@ -1,7 +1,10 @@
 import Swiper from 'swiper';
 import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
-import imagemCarrosel from '../../../imgs/bolsaCarroselTwo.png';
+import imagemCarrosel from '../../../imgs/buguela2.png';
+import imagemCarrosel2 from '../../../imgs/bolsas2.jpeg';
+import imagemCarrosel3 from '../../../imgs/buguela1.png';
+import imagemCarrosel4 from '../../../imgs/buguela4.png';
 import { getOrCreateMainElement } from '../../renderMain';
 
 // Ativa os módulos necessários para o Swiper
@@ -14,16 +17,40 @@ export const renderCarrossel = () => {
     <section class="swiper section">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="${imagemCarrosel}" alt="Descrição da imagem 1">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image">
+                <img src="${imagemCarrosel}" alt="Descrição da imagem 1">
+              </figure>
+            </div>
+          </div>
         </div>
         <div class="swiper-slide">
-          <img src="${imagemCarrosel}" alt="Descrição da imagem 2">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image">
+                <img src="${imagemCarrosel2}" alt="Descrição da imagem 1">
+              </figure>
+            </div>
+          </div>
         </div>
         <div class="swiper-slide">
-          <img src="${imagemCarrosel}" alt="Descrição da imagem 3">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image">
+                <img src="${imagemCarrosel3}" alt="Descrição da imagem 1">
+              </figure>
+            </div>
+          </div>
         </div>
         <div class="swiper-slide">
-          <img src="${imagemCarrosel}" alt="Descrição da imagem 4">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image">
+                <img src="${imagemCarrosel4}" alt="Descrição da imagem 1">
+              </figure>
+            </div>
+          </div>
         </div>
       </div>
       
@@ -64,6 +91,10 @@ const initSwiper = () => {
       prevEl: '.swiper-button-prev',
     },
     breakpoints: {
+      360: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
       768: {
         slidesPerView: 1,
         spaceBetween: 20
@@ -71,10 +102,6 @@ const initSwiper = () => {
       1024: {
         slidesPerView: 1,
         spaceBetween: 30
-      },
-      1216: {
-        slidesPerView: 2,
-        spaceBetween: 40
       }
     },
     on: {

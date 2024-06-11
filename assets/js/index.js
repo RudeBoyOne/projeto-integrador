@@ -5,12 +5,15 @@ import { renderNavbar } from "./components/navbar";
 import { renderFooter } from "./components/footer";
 import { renderCategory } from "./components/home-page/category";
 import { renderDescription } from "./components/proposito-page/description";
+import { renderProdutos } from "./components/produtos-page/products";
+
 function renderContentBasedOnHash() {
     if (location.hash === '#proposito') {
         cleanBody();
         renderDescription();
     } else if (location.hash === '#produtos') {
         cleanBody();
+        renderProdutos();
     } else if (!location.hash || location.hash === '#home') {
         cleanBody();
         renderCarrossel();

@@ -11,42 +11,48 @@ export const renderCategory = () => {
           <h3 class="title is-3">Catálogo</h3>
         </div>
         <div class="is-flex-grow-1">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image">
-                <img src="${imageCategory1}" alt="Placeholder image" />
-              </figure>
+          <a href="#produtos">
+            <div class="card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img src="${imageCategory1}" alt="Placeholder image" />
+                  </figure>
+                </div>
+                <div class="card-footer">
+                    <h5 class="card-header-title">Popular</h5>
+                </div>
             </div>
-            <div class="card-footer">
-                <h5 class="card-header-title">Popular</h5>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
       <div class="cell is-flex is-flex-direction-column is-gap-2">
         <div>
-          <div class="card">
-            <div class="card-header">
-                <h5 class="card-header-title">Bolsas</h5>
+          <a href="#produtos">
+            <div class="card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img src="${imageCategory3}" alt="Placeholder image" />
+                  </figure>
+                </div>
+                <div class="card-footer">
+                    <h5 class="card-header-title">Kit's</h5>
+                </div>
             </div>
-            <div class="card-image">
-              <figure class="image">
-                <img src="${imageCategory2}" alt="Placeholder image" />
-              </figure>
-            </div>
-          </div>
+          </a>
         </div>
         <div>
-          <div class="card">
-            <div class="card-image">
-              <figure class="image">
-                <img src="${imageCategory3}" alt="Placeholder image" />
-              </figure>
+          <a href="#produtos">
+            <div class="card">
+                <div class="card-image">
+                  <figure class="image">
+                    <img src="${imageCategory2}" alt="Placeholder image" />
+                  </figure>
+                </div>
+                <div class="card-footer">
+                    <h5 class="card-header-title">Bolsas</h5>
+                </div>
             </div>
-            <div class="card-footer">
-                <h5 class="card-header-title">Kit's</h5>
-            </div>
-          </div>
+          </a>
         </div>
     </div>`;
 
